@@ -1,18 +1,24 @@
-﻿# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-build/
-dist/
+﻿# Virtual env
+.venv/
+venv/
+env/
 
-# Jupyter checkpoints
+# Python caches
+__pycache__/
+*.pyc
+
+# Jupyter
 .ipynb_checkpoints/
 
 # Local secrets
 .env
 *.env
 
-# Generated outputs (keep repo clean)
+# Generated exports
 arxiv_*.csv
 arxiv_*.md
 outputs/
+
+# OS junk
+.DS_Store
+Thumbs.db
